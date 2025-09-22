@@ -22,8 +22,8 @@
     color: rgb(0, 0, 0);
     font-size: 15px;
 }
-
-.a-navbar {
-    color: black;
+.li-navbar a {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
