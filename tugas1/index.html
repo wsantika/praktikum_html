@@ -8,80 +8,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Navigasi-->
-    <div class="container-navbar">
-        <nav>
-            <ul class ="ul-navbar">
-                <li class ="li-navbar"><a href="#">Home</a></li>
-                <li class ="li-navbar"><a href="#">Project</a></li>
-                <li class ="li-navbar"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+   <!--Halaman Judul-->
+    <header>
+        <h2 class="logo">Wahyu <span>Santika</span></h2>
 
+        <ul class="menu-navbar">
+            <li><a  class="active" href="#">Home</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
 
-    <!--Halaman Judul-->
-    <h1>Profil Mahasiswa</h1>
+    </header>
+
 
     <!--Gambar Profile Mahasiswa-->
-    <img src="profile.png" alt="Foto Profile Mahasiswa" width="200">
+    <main>
+        <h1>Profil Mahasiswa</h1>
+        <img src="foto/profile.png" alt="Foto Profile Mahasiswa" width="200">
 
-    <!--Deskripsi-->
-    <p>Halo saya Kadek Wahyu Santika Putra, seorang mahasiswa yang berasal dari jurusan Teknologi Informasi Universitas Pendidikan Nasional.
-    Saya memiliki minat yang besar dalam bidang pengembangan web dan desain grafis. Saya berharap dapat mengembangkan keterampilan saya lebih lanjut di bidang ini selama masa studi saya.
-    </p>
+        <!--Deskripsi-->
+        <p>Halo saya Kadek Wahyu Santika Putra, seorang mahasiswa yang berasal dari jurusan Teknologi Informasi Universitas Pendidikan Nasional.
+        Saya memiliki minat yang besar dalam bidang pengembangan web dan desain grafis. Saya berharap dapat mengembangkan keterampilan saya lebih lanjut di bidang ini selama masa studi saya.
+        </p>
 
-    <!--link ke akun media sosial-->
-    <h2>Media Sosial</h2>
-    <p>Anda dapat menghubungi saya melalui:</p>
-    <ul>
-        <li><a href="mailto:wahyuputra7396@gmail.com">wahyuputra7396@gmail.com</a></li>
-        <li><a href="https://www.instagram.com/wsant1ka?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target ="_blank">Instagram</a></li>
-        <li><a href="https://github.com/wsantika" target="GitHub">GitHub</a></li>
-    </ul>
+        <!--link ke akun media sosial-->
+        <h2>Media Sosial</h2>
+            <p>Anda dapat menghubungi saya melalui:</p>
+            <ul>
+                <li><a href="mailto:wahyuputra7396@gmail.com">wahyuputra7396@gmail.com</a></li>
+                <li><a href="https://www.instagram.com/wsant1ka?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target ="_blank">Instagram</a></li>
+                <li><a href="https://github.com/wsantika" target="GitHub">GitHub</a></li>
+            </ul>
 
-    <!--Membuat tabel pendidikan-->
-    <h2>Riwayat Pendidikan</h2>
-    <table border="1">
-        <tr>
-            <th>Jenjang</th>
-            <th>Nama Institusi</th>
-            <th>Tahun</th>
-        </tr>
+        <!--Membuat tabel pendidikan-->
+        <h2>Riwayat Pendidikan</h2>
+            <table border="1">
+                <tr>
+                    <th>Jenjang</th>
+                    <th>Nama Institusi</th>
+                    <th>Tahun</th>
+                </tr>
 
-        <tr>
-            <td>S1-Teknologi Informasi</td>
-            <td>Universitas Pedidikan Nasional</td>
-            <td>2024-Sekarang</td>
-        </tr>
-        <tr>
-            <td>Sekolah Menengah Atas</td>
-            <td>SMAN 1 Gianyar</td>
-            <td>2021-2024</td>
-        </tr>
-        <tr>
-            <td>Sekolah Menengah Pertama</td>
-            <td>SMPN 3 Gianyar</td>
-            <td>2018-2021</td>
-        </tr>
-        <tr>
-            <td>Sekolah Dasar</td>
-            <td>SDN 1 Samplangan</td>
-            <td>2012-2018</td>
-        </tr>
-    </table>
+                <tr>
+                    <td>S1-Teknologi Informasi</td>
+                    <td>Universitas Pedidikan Nasional</td>
+                    <td>2024-Sekarang</td>
+                </tr>
+                <tr>
+                    <td>Sekolah Menengah Atas</td>
+                    <td>SMAN 1 Gianyar</td>
+                    <td>2021-2024</td>
+                </tr>
+                <tr>
+                    <td>Sekolah Menengah Pertama</td>
+                    <td>SMPN 3 Gianyar</td>
+                    <td>2018-2021</td>
+                </tr>
+                <tr>
+                    <td>Sekolah Dasar</td>
+                    <td>SDN 1 Samplangan</td>
+                    <td>2012-2018</td>
+                </tr>
+        </table>
 
-    <!--Membuat formulir kontak-->
-    <h2>Formulir Kontak</h2>
-    <form action ="submit_form.php" method ="post">
-        <label for ="name">Nama Lengkap:</label>
-        <input type ="text" id ="name" name ="fullname" required><br><br>
+        <!--Membuat formulir kontak-->
+        <h2>Formulir Kontak</h2>
+            <form action ="submit_form.php" method ="post">
+                <label for ="name">Nama Lengkap:</label>
+                <input type ="text" id ="name" name ="fullname" required><br><br>
 
-        <label for ="email">Email:</label>
-        <input type ="email" id ="email" name ="emailaddress" required><br><br>
+                <label for ="email">Email:</label>
+                <input type ="email" id ="email" name ="emailaddress" required><br><br>
 
-        <button type ="submit">Kirim</button>
-    </form>
+                <button type ="submit">Kirim</button>
+            </form>
+    </main>
+
 
     <!--Footer-->
     <footer>
